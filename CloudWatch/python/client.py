@@ -2,7 +2,7 @@ import boto3
 
 import time
 # create a client for cloudwatch
-client = boto3.client('logs', region_name='us-east-1', aws_access_key_id='AKIAY5L7DY472JGEAW4M',aws_secret_access_key='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')
+client = boto3.client('logs', region_name='us-east-1', aws_access_key_id='',aws_secret_access_key='')
 log_group = "test-logs"
 log_stream = "log-stream"
 
